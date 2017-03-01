@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title> JDubb Movie Review </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="main.css" rel="stylesheet">
+
+
+    <div id="bg">
+        <img src="img/MovieBackground.png" alt="">
+    </div>
+</head>
+
+<header role="banner">
+    <img id="logo-main" src="img/MovieLogo.png" size="20%" height="20%" alt="Logo Thing main logo">
+
+    <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Reviews</a></li>
+                    <li><a href="#">About Jdubb</a></li>
+                    <li><a href="#">Theatres around You</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Movie Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="container">
+        <center>
+            <img src="img/MoviePopCorn.png" height="10%" width="17%" class="movieTicket" />
+        </center>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6 container-fluid" id="movieTable">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Movie Information
+                </div>
+                <!-- //Movie Table// -->
+                <div class="container">
+                    <table class="table">
+                        <thead>
+                            <tr class="movieInfo">
+                                <th>Title</th>
+                                <th>Director</th>
+                                <th>Release Date</th>
+                                <th> Jdubb's Rating</th>
+                                <th>Edit</th>
+                                <th>
+                                  Delete
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <a href="addMovie.html" class="buttonSection" id="movieButton"><img src="img/AddMovieButton.png" height="63%" width="auto" /></a>
+
+</body>
+<footer class="footer">
+
+    <p>
+        (c) All Rights Reserved - Jordan Stephenson
+    </p>
+
+</footer>
+<script src="main.js"></script>
+
+</html>

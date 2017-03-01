@@ -1,0 +1,151 @@
+
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.items {
+  position: absolute;
+  background-color: #fff;
+  padding: 20px;
+  border-style: solid;
+  border-color: #fc3c33;
+  border-width: 5px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.movieTicket {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#goToMovie {
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  color: #000;
+  background-color: #fff;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.addMovie {
+  border-color: #000;
+  border-width: 20px;
+  border-style: solid;
+
+}
+.AddMovieButton {
+  background-image: url(img/AddMovieButton.png);
+  display: flex;
+
+}
+
+
+.buttonSection {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+#movieButton {
+  position: relative;
+}
+.panel-primary>.panel-heading {
+  background-color: #580d22;
+  border-color: #fff;
+}
+.btn-primary {
+  background-color: #781823;
+  border-color: #fff;
+}
+
+
+#navbar-primary.navbar-default {
+  /*background: transparent;*/
+  border: none;
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+
+    > li {
+      display: flex;
+      width: 100%;
+
+      > a {
+        padding-left: 30px;
+        padding-right: 30px;
+
+        }
+    }
+  }
+}
+.container-fluid {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+  #logo-main {
+    display: flex;
+    padding-left: 20px;
+    z-index: 2;
+    position: absolute;
+    max-width: 20%;
+    padding-bottom: 25px;
+    max-height: 16%;
+  }
+
+.movieIndex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+#index {
+  margin-top: 20px;
+  padding: 10px;
+}
+.footer {
+  height: 50px;
+  width: 100%;
+  color: #000;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+p {
+  margin: 0px;
+}

@@ -17,7 +17,7 @@ $(document).ready(function() {
                 `<td class="titleClass"><a class="posterClass" href="${data[i].PosterURL}">` +
                 data[i].Title +
                 '</a></td>' +
-                '<td class="directorClass">' +
+                '<td class="directorClass" contenteditable="true">' +
                 data[i].Director +
                 '</td>' +
                 '<td class="yearClass">' +
@@ -34,6 +34,7 @@ $(document).ready(function() {
         }
     });
 });
+
 
 $('#submitButton').on('click', function(event) {
     event.preventDefault();
@@ -76,37 +77,6 @@ $('body').on('click', '.edit-btn', function(e) {
     localStorage.setItem('movieID', e.target.dataset.id);
     var movieID = localStorage.getItem('movieID');
     window.location = `/edit.html?id=${movieID}`
-    var getmovieID = getParameterByName('id', `/edit.html?id=${movieID}`)
-    console.log(getmovieID)
+  
 
-    function getParameterByName(name, url) {
-        if (!url) {
-            url = window.location.href;
-        }
-        name = name.replace(/[\[\]]/g, "\\$&");
-        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-            results = regex.exec(url);
-        if (!results) return null;
-        if (!results[2]) return '';
-        return decodeURIComponent(results[2].replace(/\+/g, " "));
-        }
-
-
-    $.ajax({
-            method: 'GET',
-            url: `/edit/${getmovieID}`,
-            contentType: "application/json",
-            data: JSON.stringify()
-          }).then(function(success) {
-            console.log(success)
-            console.log(success.Title)
-              // $('#editaddMovie').text(success.Title)
-              $('#editmovietitle').val(success.Title)
-              $('#editmoviedirector').val(success.Director)
-              $('#editmoviedate').val(success.Year)
-              $('#editrating').val(success.MyRating)
-              $('#editurl').val(success.PosterURL)
-              // $('#editposter').attr("src", success.poster)
-            })
-            .catch(err => {console.log(err)})
     });

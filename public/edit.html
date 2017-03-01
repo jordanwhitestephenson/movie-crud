@@ -3,7 +3,6 @@
 <html lang="en">
 
 <head>
-
     <title> JDubb Movie Review </title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +21,7 @@
 <header role="banner">
     <img id="logo-main" src="img/MovieLogo.png" size="20%" height="20%" alt="Logo Thing main logo">
 
-  <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
+    <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
@@ -44,31 +43,34 @@
         </div>
     </nav>
 </header>
+
 <body>
 
-<div class = "container">
-  <div class = "movieTicket">
-    <form class = "items">
-      <div id = "addMovie">
-        Title:<br>
-  <input type="text" id="editmovietitle">
-  <br>Director:<br>
-  <input type="text" id="editmoviedirector">
-  <br>Year:<br>
-  <input type="date" id="editmoviedate">
-  <br>
-  <br>MyRating:<br>
-  <input type="number" id="editrating">
-  <br>URL:<br>
-  <input type="text" id="editurl">
-  <br><br>
-  </div>
-  <input type="submit" value="Submit" id = "submitButton">
-</form>
-</div>
-</div>
+    <div class="container">
+        <div class="movieTicket">
+            <form class="items">
+                <div id="addMovie">
+                    Title:<br>
+                    <input type="text" name="edit_movie"  value ="" id="editmovietitle" >
+                    <br>Director:<br>
+                    <input type="text" id="editmoviedirector">
+                    <br>Year:<br>
+                    <input type="text" id="editmoviedate">
+                    <br>
+                    <br>MyRating:<br>
+                    <input type="text" id="editrating">
+                    <br>URL:<br>
+                    <input type="text" id="editurl">
+                    <br><br>
+                </div>
+                <input type="submit" value="Submit" id="submitButton">
+            </form>
+        </div>
+    </div>
 
 </body>
 
-<script src = "main.js"></script>
+<script src="edit.js"></script>
+
+
 </html>

@@ -41,44 +41,12 @@
       "PosterURL": "https://en.wikipedia.org/wiki/As_Good_as_It_Gets#/media/File:As_good_as_it_gets.jpg"
     },
     {
-      "id": 6,
-      "Title": "YA!",
-      "Director": "",
-      "Year": "",
-      "MyRating": "",
-      "PosterURL": ""
-    },
-    {
-      "id": 7,
-      "Title": "",
-      "Director": "Peach",
-      "Year": "",
-      "MyRating": "",
-      "PosterURL": ""
-    },
-    {
-      "id": 8,
-      "Title": "Peach",
-      "Director": "",
-      "Year": "",
-      "MyRating": "",
-      "PosterURL": ""
-    },
-    {
-      "id": 9,
-      "Title": "21",
-      "Director": "",
-      "Year": "",
-      "MyRating": "",
-      "PosterURL": ""
-    },
-    {
-      "id": 1,
-      "Title": "asfdasdfa",
-      "Director": "",
-      "Year": "",
-      "MyRating": "",
-      "PosterURL": ""
+      "id": "6",
+      "Title": "James and The Giant Peach23",
+      "Director": "NOT Frogger",
+      "Year": "2019-01-01",
+      "MyRating": "4",
+      "PosterURL": "www.facebook.com"
     }
   ]
 }

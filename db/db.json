@@ -1,11 +1,11 @@
 {
   "movies": [
     {
-      "id": 1,
+      "id": "1",
       "Title": "Heavy Weights",
       "Director": "Steven Bill",
-      "Year": 1995,
-      "MyRating": 5,
+      "Year": "1995",
+      "MyRating": "5",
       "PosterURL": "http://www.imdb.com/title/tt0110006/mediaviewer/rm4003962624"
     },
     {
